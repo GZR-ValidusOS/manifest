@@ -125,7 +125,7 @@
   <project path="system/media" name="system_media" groups="pdk" remote="tesla" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="validus" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
   <project path="vendor/qcom/opensource/bluetooth" name="packages_apps_BluetoothExt" remote="tesla" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tesla" />
