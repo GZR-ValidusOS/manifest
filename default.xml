@@ -21,9 +21,9 @@
 
   <remote  name="validus"
            fetch="https://github.com/GZR-ValidusOS/"
-           revision="n7.1" /> 
+           revision="n7.1.1" /> 
 
-  <default revision="refs/tags/android-7.1.0_r7"
+  <default revision="refs/tags/android-android-7.1.1_r4"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
