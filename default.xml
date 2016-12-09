@@ -221,6 +221,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
@@ -617,10 +618,10 @@
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
 
   <!-- CM -->
-  <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="cm" />
-  <project path="packages/apps/SafetyRegulatoryInfo" name="android_packages_apps_SafetyRegulatoryInfo" remote="cm" />
-  <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="cm" />
-  <project path="external/apache-http" name="android_external_apache-http" groups="pdk" remote="cm" />
+  <project path="external/jemalloc" name="android_external_jemalloc" groups="pdk" remote="tesla" />
+  <project path="packages/apps/SafetyRegulatoryInfo" name="android_packages_apps_SafetyRegulatoryInfo" remote="tesla" />
+  <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="tesla" />
+  <project path="external/apache-http" name="android_external_apache-http" groups="pdk" remote="tesla" />
 
   <!-- Temp prebuilts -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
