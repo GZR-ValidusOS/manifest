@@ -33,7 +33,7 @@
   <project path="build" name="build" groups="pdk,tradefed" remote="validus" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="art" groups="pdk" remote="tesla"  />
+  <project path="art" name="art" groups="pdk" remote="validus"  />
   <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
