@@ -143,7 +143,7 @@
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="validus" />
-  <project path="OTA_config" name="OTA_config" remote="validus" >
+  <project path="OTA_config" name="ValidusOs-Devices/OTA_config" remote="github" revision="master" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   
