@@ -34,6 +34,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" groups="pdk" remote="validus"  />
+  <project path="bionic" name="bionic" groups="pdk" remote="validus" />  
   <project path="external/DUtils" name="external_DUtils" remote="validus" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="validus" />
   <project path="frameworks/base" name="frameworks_base" remote="validus" />
@@ -56,7 +57,6 @@
 
 
   <!-- Tesla Repo's -->
-  <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
