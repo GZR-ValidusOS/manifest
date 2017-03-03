@@ -13,7 +13,7 @@
            revision = "master"/>
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
+           fetch="https://github.com/LineageOS"
            revision="cm-14.1" />
 
   <remote  name="tesla"
