@@ -24,7 +24,7 @@
            fetch="https://github.com/GZR-ValidusOS/"
            revision="n7.1.1" /> 
 
-  <default revision="refs/tags/android-7.1.1_r28"
+  <default revision="refs/tags/android-7.1.2_r5"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -224,6 +224,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
