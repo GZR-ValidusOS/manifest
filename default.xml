@@ -48,6 +48,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="validus" />  
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="validus" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="validus" />
+  <project path="packages/apps/DSPlibs" name="packages_apps_DSPlibs" remote="validus" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="validus" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="validus" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="validus" />
