@@ -60,6 +60,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="validus" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="validus" />
   <project path="system/core" name="system_core" groups="pdk" remote="validus" />
+  <project path="system/media" name="system_media" groups="pdk" remote="validus" />  
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="validus" />
   <project path="vendor/validus" name="vendor_validus" remote="validus" />
 
@@ -134,7 +135,6 @@
   <project path="system/bt" name="system_bt" groups="pdk" remote="tesla" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="tesla" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="tesla" />
-  <project path="system/media" name="system_media" groups="pdk" remote="tesla" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
