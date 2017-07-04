@@ -17,7 +17,6 @@ Then to sync up:
 When The Repo Is Synced, Type:
 -----------------------------------------
 ```
-```
 . build/envsetup.sh
 lunch
 Choose your device
