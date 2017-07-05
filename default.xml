@@ -92,6 +92,9 @@
   <project path="external/libncurses" name="external_libncurses" remote="tesla" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="tesla" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="tesla" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="tesla" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="tesla" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="tesla" />
