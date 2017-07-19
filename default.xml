@@ -47,9 +47,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="validus" />
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" remote="validus"  />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="validus" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="validus" />
   <project path="libcore" name="libcore" groups="pdk" remote="validus" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="validus" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="validus" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="validus" />
   <project path="packages/apps/DSPlibs" name="packages_apps_DSPlibs" remote="validus" />
@@ -124,7 +122,9 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="tesla" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="tesla" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tesla" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tesla" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="tesla" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tesla" revision="n7.0" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="tesla" />
